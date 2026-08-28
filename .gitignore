@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.json
+data/*.bak
+data/*.tmp
+node_modules/

@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-kirei-lora-trigger-studio"
+version = "0.1.0"
+description = "ComfyUI multi-LoRA loader with selectable trigger words, presets and a local JSON library"
+authors = [{name = "Kirei"}]
+keywords = ["comfyui", "kirei", "lora", "trigger-words", "lora-loader"]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.comfy]
+DisplayName = "ComfyUI Kirei LoRA Trigger Studio"

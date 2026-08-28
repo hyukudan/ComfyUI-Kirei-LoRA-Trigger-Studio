@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "loras": {
+    "examples/my_action_lora.safetensors": {
+      "triggers": [
+        { "text": "example_action", "label": "Base action", "default_on": true },
+        { "text": "example_finish", "label": "Finisher", "default_on": false }
+      ],
+      "presets": [
+        { "name": "Normal", "words": ["example_action"] },
+        { "name": "Finisher", "words": ["example_action", "example_finish"] },
+        { "name": "No triggers", "words": [] }
+      ],
+      "notes": "FICTIONAL EXAMPLE. Replace with the author's instructions for the exact model version."
+    }
+  }
+}
